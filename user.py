@@ -45,7 +45,7 @@ class Creditials:
         self.password = password
         self.username  = username
 
-@classmethod
+    @classmethod
     def verify_user(cls,username,password):
         a_user = ""
         for user in User.user_list:
